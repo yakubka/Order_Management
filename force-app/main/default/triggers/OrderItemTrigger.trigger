@@ -1,4 +1,4 @@
-trigger OrderItem on OrderItem__c (after insert, after update, after delete, after undelete) {
+trigger OrderItemTrigger on OrderItem__c (after insert, after update, after delete, after undelete) {
     Set<Id> oIds = new Set<Id>();
     if (Trigger.isInsert || Trigger.isUpdate || Trigger.isUndelete) {
         for (OrderItem__c n : Trigger.new) {
