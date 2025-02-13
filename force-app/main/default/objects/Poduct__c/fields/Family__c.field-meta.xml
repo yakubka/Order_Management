@@ -11,8 +11,5 @@
         <picklistValues>
             <fullName>Family 2</fullName>
         </picklistValues>
-        <picklistValues>
-            <fullName>Family 3</fullName>
-        </picklistValues>
     </picklist>
 </CustomField>
