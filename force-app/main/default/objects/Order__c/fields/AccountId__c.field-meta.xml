@@ -4,5 +4,6 @@
     <label>Account</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Orders</relationshipLabel>
+    <relationshipName>Account_Orders</relationshipName>
     <type>Lookup</type>
 </CustomField>

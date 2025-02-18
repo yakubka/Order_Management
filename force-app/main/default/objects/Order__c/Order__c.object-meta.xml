@@ -3,11 +3,10 @@
     <fullName>Order__c</fullName>
     <label>Order</label>
     <pluralLabel>Orders</pluralLabel>
-    <nameField>
-        <label>Order Name</label>
-        <type>AutoNumber</type>
-        <displayFormat>ORD-{0000}</displayFormat>
-    </nameField>
-    <deploymentStatus>Deployed</deploymentStatus>
+   <nameField>
+    <type>Text</type>
+    <label>Order Name</label>
+</nameField>
+        <deploymentStatus>Deployed</deploymentStatus>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
